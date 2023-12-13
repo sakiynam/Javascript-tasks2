@@ -107,3 +107,97 @@
 // }
 
 // console.log(augment);
+
+
+
+// 7 - 4 xonali sonning juft raqamlari sonini topuvchi algoritm
+// let num1 = 6851;
+// let counter = 0;
+
+// let birlar = num1 % 10;
+// let onlar = Math.floor(num1 % 100) / 10;
+// let yuzlar = Math.floor(num1 / 100) % 10;
+// let minglar = Math.floor(num1 / 1000);
+
+// if (birlar % 2 == 0){
+//     counter++;
+// }
+
+// if (onlar % 2 == 0){
+//     counter++;
+// }
+
+// if (yuzlar % 2 == 0){
+//     counter++;
+// }
+
+// if (minglar % 2 == 0){
+//     counter++;
+// }
+
+// console.log(counter);
+
+
+
+// 8 - Togri tortburchakning yuzasi perimetridan katta bolsa yuzasini aks holda perimetrini chiqaruvchi algoritm 
+// let  a = 10;
+// let b = 7;
+
+
+// let P = (a + b) * 2;
+// let S = a * b;
+
+// if (P > S){
+//     console.log(P);
+// }
+// else{
+//     console.log(S);
+// }
+ 
+
+
+// 9 - 5 xonali sondagi nollar sonini topuvchi algoritm
+// let num1 = 24009;
+// let counter = 0;
+
+// let birlar = num1 % 10;
+// let onlar = Math.floor(num1 / 10) % 10;
+// let yuzlar = Math.floor(num1 / 100) % 10;
+// let minglar = Math.floor(num1 / 1000) % 10
+// let on_minglar = (num1 / 10000);
+
+// if (birlar == 0){
+//     counter++
+// }
+
+// if (onlar == 0){
+//     counter++
+// }
+
+// if (yuzlar == 0){
+//     counter++
+// }
+
+// if (minglar == 0){
+//     counter++
+// }
+
+// if (on_minglar == 0){
+//     counter++
+// }
+
+// console.log(counter);
+
+
+
+// 10 - Poyezd soat nechada ketishini topuvchi algoritm
+// let t = 22;
+// let T = 10;
+
+// let result = t + T;
+
+// if (result > 23){
+//     result = result % 24;
+// }
+
+// console.log(result);
